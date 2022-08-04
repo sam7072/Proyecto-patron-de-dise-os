@@ -8,6 +8,7 @@ namespace Builder
 {
     public interface IBuilder
     {
+        // acciones que llevan acavo los constructores
         public void ConstrullerMotor();
         public void ConstrullerCarroceria();
         public void ConstrullerLlantas();

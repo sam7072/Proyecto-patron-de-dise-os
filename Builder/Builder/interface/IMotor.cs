@@ -26,4 +26,12 @@ namespace Builder
             return "Motor de 8 cilindros";
         }
     }
+
+    class MotorTermico : IMotor
+    {
+        public string especificaciones()
+        {
+            return "Motor de 6 cilindros";
+        }
+    }
 }

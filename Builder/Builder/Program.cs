@@ -33,6 +33,20 @@ namespace Builder
 
             auto2.MostrarAuto();
 
+            Console.WriteLine("----------------------");
+
+            Console.WriteLine("Auto híbrido");
+            //el auto economico 
+            BuilderHíbrido híbrido = new BuilderHíbrido();
+            miDirector.Construye(híbrido);
+
+
+            //obtenemos el auto
+            Producto auto3 = híbrido.ObtenProducto();
+
+            auto3.MostrarAuto();
+
+
         }
     }
 }

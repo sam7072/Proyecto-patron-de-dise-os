@@ -17,7 +17,7 @@ namespace Builder
     {
         public string informacion()
         {
-            return "Llantas de 14 pulgadas";
+            return "Llantas de 17 pulgadas";
         }
     }
 
@@ -26,6 +26,14 @@ namespace Builder
         public string informacion()
         {
             return "Llantas de 18 pulgadas, rines aluminio";
+        }
+    }
+
+    class llantasEconomica : ILlantas
+    {
+        public string informacion()
+        {
+            return "Llantas de 16 pulgadas";
         }
     }
 }

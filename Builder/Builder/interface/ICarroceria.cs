@@ -28,4 +28,13 @@ namespace Builder
         }
     }
 
+    class CarroceriaHibrida : ICarroceria
+        {
+
+        public string caracteristicas()
+        {
+            return "Carroceria hibrida ambiental";
+        }
+
+    }
 }
